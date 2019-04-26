@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--To refresh after every 5 sec 
+    <meta http-equiv ='refresh' content='5'> -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Humidity_Fetch</title>
+    <style>
+	
+      .chart-container {
+        width: 50%;
+        height: auto;
+      }
+	  	#first {
+			  
+			  width:50%;
+			  float:left;
+			}
+	
+    </style>
+  </head>
+  <body style="background-color:darkslategray; color:#FFF;">
+   <a href="index.php" class="btn btn-secondary">Home Page</a>
+    <center>
+    <div class="chart-container">
+	 <div class ="first">
+	 <h1>Humidity Graph</h1>
+	 
+      <canvas id="mycanvas"></canvas>
+	  </div>
+    </div>
+	</center>
+    
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Chart.min.js"></script>
+    <script type="text/javascript" src="js/id_fetch.js"></script>
+  </body>
+</html>
