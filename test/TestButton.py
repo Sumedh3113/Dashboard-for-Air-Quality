@@ -17,7 +17,7 @@ selectButton1 =browser.find_element_by_xpath("/html/body/div[3]/div[1]/div[1]/fo
 time.sleep(3)
 selectButton1.send_keys(Keys.RETURN)
 time.sleep(3)
-browser.get_screenshot_as_file("D:/Python_leet/mathworks/Humidity.png")
+#browser.get_screenshot_as_file("D:/Python_leet/mathworks/Humidity.png")
 backButton()
 
 selectButton1 =browser.find_element_by_xpath("/html/body/div[3]/div[1]/div[2]/form/input")
