@@ -6,7 +6,7 @@ Dashboard to measure Air Quality, Temperature, and Humidity
 
 <b>Steps to be followed for dashboard setup:</b>
 
-1.	Go to Code>Dashboard folder
+1.	Go to Code>Project folder
 2.	Download js,PHP and MySQL folders
 3.	Download XAMMP on your system from https://www.apachefriends.org/download.html
 
