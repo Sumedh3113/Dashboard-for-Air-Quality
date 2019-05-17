@@ -11,7 +11,6 @@ browser.get('http://iotdashboard.atwebpages.com/');
 
 
 select =browser.find_element_by_name("from")
-#select =browser.find_element_by_xpath("/html/body/div[3]/div[1]/table/tbody/tr[1]/td[2]/input")
 time.sleep(3)
 select.send_keys("04/01/2019")
 
@@ -20,7 +19,7 @@ time.sleep(3)
 selectTo.send_keys("04/30/2019")
 
 # to keep proof of outcome after the dates are selected
-browser.get_screenshot_as_file("D:/Python_leet/mathworks/graphScreen.png")
+#browser.get_screenshot_as_file("D:/Python_leet/mathworks/graphScreen.png")
 
 submits =browser.find_element_by_name("submit")
 submits.send_keys(Keys.RETURN)
